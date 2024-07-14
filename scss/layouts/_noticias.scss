@@ -37,7 +37,7 @@
     h2 {
         font-family: "Lato", sans-serif;
         font-weight: 800;
-        color: #1E0875;
+        color: map-get($colores, color3);
         display: flex;
         text-align: left;
         padding-right: .625rem;
@@ -56,7 +56,7 @@
 
 .more {
     background-color: #16A34A;
-    color: white;
+    color: map-get($colores, color5);
     border: none;
     padding: .625rem 1.25rem;
     margin-top: 1.25rem;

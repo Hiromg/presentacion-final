@@ -17,7 +17,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "lato", sans-serif;
-    color: black;
+    color: map-get($colores, color2);
 }
 
 /*certificaciones logos PAGINA*/
@@ -26,13 +26,13 @@
     display: flex;
     justify-content: center;
     align-content: space-between;
-    background-color: #FC1912;
+    background-color: map-get($colores, color1);
     flex-wrap: wrap;
     max-width: fit-content;
     margin: 0 auto;
 
     h1 {
-        color: white;
+        color: map-get($colores, color5);
         font-size: 2rem;
         font-weight: 900;
         margin-bottom: 1.25rem;

@@ -2,7 +2,7 @@
 /*nuestros productos*/
 
 .productos-container {
-    background-color: #FC1912;
+    background-color: map-get($colores, color1);
     max-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@
 
 .read-more2 {
     background-color: #16A34A;
-    color: white;
+    color: map-get($colores, color5);
     border: none;
     padding: .625rem 1.25rem;
     font-size: 1rem;

@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     font-family: "lato", sans-serif;
     font-weight: 900;
-    color: #1E0875;
+    color: map-get($colores, color3);
 }
 
 .parrafo-liners {
@@ -38,7 +38,7 @@
 
 .liners-container {
     display: flex;
-    background-color: #1E0875;
+    background-color: map-get($colores, color3);
     width: 90%;
     flex-wrap: wrap;
     max-width: fit-content;
@@ -48,7 +48,7 @@
 
     h2 {
         font-family: "Lato", sans-serif;
-        color: #FC1912;
+        color: map-get($colores, color1);
         font-weight: 900;
         padding-top: 2.5rem;
         padding-left: 2.5rem;
@@ -66,7 +66,7 @@
     p {
         grid-area: parrafo;
         font-family: "Lato", sans-serif;
-        color: #EDEDED;
+        color: map-get($colores, color4);
         padding-top: 30px;
         padding-left: 1.875rem;
         margin-left: .625rem;
@@ -85,7 +85,7 @@
 .listliner {
     grid-area: list1;
     font-family: "Lato", sans-serif;
-    color: #EDEDED;
+    color: map-get($colores, color4);
     margin-left: 2.5rem;
     padding-bottom: 2.5rem;
 }
@@ -94,7 +94,7 @@
 
 .liners2-container {
     display: flex;
-    background-color: #FC1912;
+    background-color: map-get($colores, color1);
     width: 90%;
     flex-wrap: wrap;
     max-width: fit-content;
@@ -104,7 +104,7 @@
 
     h2 {
         font-family: "Lato", sans-serif;
-        color: #EDEDED;
+        color: map-get($colores, color4);
         font-weight: 800;
         padding-top: 2.5rem;
         padding-left: 2.5rem;
@@ -122,7 +122,7 @@
     p {
         grid-area: parrafo;
         font-family: "Lato", sans-serif;
-        color: #EDEDED;
+        color: map-get($colores, color4);
         padding-top: 20px;
         padding-left: 20px;
         margin-left: .625rem;
@@ -142,7 +142,7 @@
     grid-area: list1;
     width: 70%;
     font-family: "Lato", sans-serif;
-    color: #EDEDED;
+    color: map-get($colores, color4);
     margin-left: .625rem;
     padding-bottom: 1.25rem;
 }

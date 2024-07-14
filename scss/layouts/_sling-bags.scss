@@ -40,7 +40,7 @@
 
 .slingventajas-container {
     display: flex;
-    background-color: #1E0875;
+    background-color: map-get($colores, color3);
     width: 90%;
     flex-wrap: wrap;
     max-width: fit-content;
@@ -52,7 +52,7 @@
 
     h2 {
         font-family: "Lato", sans-serif;
-        color: #FC1912;
+        color: map-get($colores, color1);
         font-weight: 900;
         padding-top: 2.5rem;
         padding-left: 2.5rem;
@@ -68,7 +68,7 @@
 
     li {
         font-family: "Lato", sans-serif;
-        color: #EDEDED;
+        color: map-get($colores, color4);
         padding-top: .625rem;
         padding-left: 1.875rem;
         margin-left: .625rem;
@@ -79,7 +79,7 @@
 .list1v {
     grid-area: list1;
     font-family: "Lato", sans-serif;
-    color: #EDEDED;
+    color: map-get($colores, color4);
     margin-left: 2.5rem;
 }
 

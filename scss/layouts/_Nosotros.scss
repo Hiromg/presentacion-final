@@ -24,12 +24,12 @@
 /*seccion donde estamos NOSOTROS*/
 
 .nosotros-container {
-    background-color: #FC1912;
+    background-color: map-get($colores, color1);
 }
 
 .grid-container {
     display: flex;
-    background-color: #FC1912;
+    background-color: map-get($colores, color1);
     max-width: 100%;
     width: 90%;
 }
@@ -47,7 +47,7 @@
 
     p {
         font-family: "Lato", sans-serif;
-        color: black;
+        color: map-get($colores, color2);
         padding-left: 1.25rem;
         padding-top: .625rem;
         padding-right: .9375rem;
@@ -66,7 +66,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 1.25rem;
-    background-color: white;
+    background-color: map-get($colores, color5);
     width: 70%;
 }
 
@@ -81,7 +81,7 @@
     margin-bottom: 1.25rem;
 
     h2 {
-        color: white;
+        color: map-get($colores, color5);
         background-color: #FC1912;
         border-radius: .6875rem;
         font-size: 1.25rem;
@@ -103,7 +103,7 @@
     background-color: #F3F4F6;
 
     h1 {
-        color: #1E0875;
+        color: map-get($colores, color3);
         font-size: 2rem;
         font-weight: 900;
         margin-bottom: 2.5rem;

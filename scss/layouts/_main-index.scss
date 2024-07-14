@@ -1,7 +1,7 @@
 /*BANNER INICIO*/
 
 .index-contain {
-    background-color: #1E0875;
+    background-color: map-get($colores, color3);
 }
 
 .contenedor-index {
@@ -24,11 +24,11 @@
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: map-get($colores, color5);
 }
 
 .card {
-    background-color: #EDEDED;
+    background-color: map-get($colores, color4);
     border-radius: .6875rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.382);
     padding: 1.25rem;
@@ -54,11 +54,11 @@
 /*producto cards INICIO*/
 
 .container-product {
-    background-color: #EDEDED;
+    background-color: map-get($colores, color4);
 }
 
 .products-section {
-    background-color: #EDEDED;
+    background-color:map-get($colores, color4);
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
@@ -158,13 +158,13 @@
     display: flex;
     justify-content: center;
     align-content: space-around;
-    background-color: #FC1912;
+    background-color: map-get($colores, color1);
     flex-wrap: wrap;
     max-width: fit-content;
     margin: 0 auto;
 
     h1 {
-        color: white;
+        color: map-get($colores, color5);
         font-size: 2rem;
         font-weight: 900;
         margin-bottom: 1.25rem;
